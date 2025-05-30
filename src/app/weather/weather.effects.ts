@@ -12,7 +12,7 @@ export class Weathereffects {
 
 
 // IMPORTANT !!!!!!!!!! Replcae the text 'REPLACE_IT_WITH_YOUR_ID' with your API KEY
-// ELSE APP WONT RUN 
+// ELSE APP WONT RUN   
 
   loadWeather$ = createEffect(() =>
     this.actions$.pipe(
